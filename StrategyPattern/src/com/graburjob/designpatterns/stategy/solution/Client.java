@@ -1,0 +1,21 @@
+package com.graburjob.designpatterns.stategy.solution;
+
+public class Client {
+
+	public static void main(String[] args) {
+		// Driving
+		Vehicle vehicle = new Car();
+		vehicle.go();
+		// Driving
+		vehicle = new Bus();
+		vehicle.go();
+		// Driving Fast
+		vehicle = new FormulaOne();
+		vehicle.go();
+		
+		// Flying ... not Driving
+		vehicle = new AeroPlane();
+		vehicle.go();
+	}
+
+}

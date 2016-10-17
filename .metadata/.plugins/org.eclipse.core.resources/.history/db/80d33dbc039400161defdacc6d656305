@@ -1,0 +1,11 @@
+package com.graburjob.designpatterns.stategy.solution;
+
+public class GobyDrivingAlgorithm implements GoAlgoritham {
+
+	@Override
+	public void go() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
