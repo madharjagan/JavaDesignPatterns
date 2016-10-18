@@ -1,0 +1,12 @@
+package com.graburjob.designpatterns.observer;
+
+public class ObserverClient {
+
+	public static void main(String[] args) {
+		Subject sub = new PostOffice();
+		sub.addObserver(new JaganMailBox());
+		sub.addObserver(new DeviMailBox());
+		sub.notifyObservers();
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.graburjob.designpatterns.observer;
+
+public class JaganMailBox implements Observer {
+
+	public String address;
+	
+	@Override
+	public void notifyObj() {
+		System.out.println("Jagan received email !!!");
+	}
+
+}

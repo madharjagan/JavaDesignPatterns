@@ -1,0 +1,23 @@
+package com.graburjob.designpatterns.observer;
+
+public class PostOffice implements Subject {
+
+	@Override
+	public void addObserver(Observer obj) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void removeObserver(Observer obj) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void notifyObservers() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

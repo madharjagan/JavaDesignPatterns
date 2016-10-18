@@ -1,0 +1,11 @@
+package com.graburjob.designpatterns.observer;
+
+public class JaganMailBox implements Observer {
+
+	@Override
+	public void notifyObj() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
